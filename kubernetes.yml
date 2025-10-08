@@ -31,7 +31,7 @@ spec:
         image: dockurr/windows
         env:
         - name: VERSION
-          value: "7"
+          value: "7u"
         - name: DISK_SIZE
           value: "64G"
         ports:
