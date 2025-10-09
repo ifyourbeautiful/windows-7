@@ -4,8 +4,8 @@ services:
     container_name: windows
     environment:
       DISK_SIZE: "256G"
-      RAM_SIZE: "8G"
-      CPU_CORES: "2"
+      RAM_SIZE: "16G"
+      CPU_CORES: "4"
       VERSION: "7u"
     devices:
       - /dev/kvm
